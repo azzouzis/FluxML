@@ -1048,8 +1048,3 @@ Assuming that the libFluxML is installed in the non standard location `PREFIX` (
 
 `g++ readFluxMLModel.cpp -o readFluxMLModel -I"$PREFIX"/include/ -L"$PREFIX"/lib/ -lFluxML -lxerces-c -Wl,-rpath="$PREFIX"/lib/`
 
-
-
-### The Online FluxML Validator
-
-Please visit <a href="www.13cflux.net/fluxml/validator"> www.13cflux.net/fluxml/validator</a> for more information about the FluxML online validation service.
